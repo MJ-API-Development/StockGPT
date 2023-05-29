@@ -17,6 +17,7 @@ class ModelSelections(BaseSettings):
 class AIEngine:
     """
 
+
     """
 
     def __init__(self, api_key: str = config_instance().openai_api_key, model: str = ModelSelections.text_davinci,

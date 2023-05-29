@@ -7,7 +7,7 @@ from financial markets and staying updated with relevant information in real-tim
 With the combination of OpenAI's advanced language model and financial data, StockGPT empowers users to make 
 informed decisions and gain a deeper understanding of market trends.
 
-Features:
+## Features:
 
 Financial Data Analysis: StockGPT allows users to analyze historical stock prices, perform technical analysis, 
 and generate predictions based on various financial indicators.
@@ -20,9 +20,10 @@ conversational interface.
 
 Users can ask questions, seek insights, and receive responses in a natural language format, enhancing the user experience.
 
-Requirements:
+## Requirements:
 
-Python 3.x
+### Python 3.x
+
 Dependencies listed in the requirements.txt file
 To get started, follow the installation instructions and set up your OpenAI API credentials. 
 Then, explore the provided examples and documentation to understand how to utilize StockGPT for financial analysis 

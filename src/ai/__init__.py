@@ -1,4 +1,6 @@
-import openai
+from langchain import OpenAI
+from langchain.chains import VectorDBQAWithSourcesChain
+import faiss
 from openai.error import RateLimitError
 from pydantic import BaseSettings, Field
 
@@ -23,7 +25,7 @@ class AIEngine:
         self._open_ai = openai
         self._open_ai.api_key = api_key
         self._use_tokens = use_tokens
-
+    def load_chain(self, ):
     def completion(self, _prompt: str) -> str | None:
         """
         **completion**

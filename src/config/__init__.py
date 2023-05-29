@@ -21,6 +21,8 @@ class APPSettings(BaseSettings):
 
 class Settings(BaseSettings):
     application: APPSettings = APPSettings()
+    openai_api_key: str = Field(..., env="OPENAI_API_KEY")
+
     class Config:
         env_file = '.env.development'
         env_file_encoding = 'utf-8'

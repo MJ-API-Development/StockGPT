@@ -1,6 +1,5 @@
 from langchain import OpenAI
 from langchain.chains import VectorDBQAWithSourcesChain
-import faiss
 from openai.error import RateLimitError
 from pydantic import BaseSettings, Field
 
